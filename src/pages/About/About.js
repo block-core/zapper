@@ -50,7 +50,7 @@ function About() {
          <h3>Need help?</h3>
          <p>
             Just drop your issues on{' '}
-            <a href="https://github.com/nostrband/zapper/issues">github</a> or
+            <a href="https://github.com/block-core/zapper/issues">github</a> or
             contact{' '}
             <a href="https://snort.social/p/npub1xdtducdnjerex88gkg2qk2atsdlqsyxqaag4h05jmcpyspqt30wscmntxy">
                brugeman

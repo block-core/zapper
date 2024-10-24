@@ -14,28 +14,17 @@ export const Footer = () => {
       <StyledFooter>
          <InnerContainer>
             <AppLogo />
-
             <StyledDescriptionText>
-               Zapper is an open source project by{' '}
                <StyledLink
-                  href=" https://nostr.band"
+                  href="https://Angor.io/"
                   target="_blank"
                   rel="noreferrer"
                >
-                  Nostr.Band
-               </StyledLink>
-               . Design by{' '}
-               <StyledLink
-                  href="https://opensats.org/"
-                  target="_blank"
-                  rel="noreferrer"
-               >
-                  OpenSats initiative.
+                  Angor.io
                </StyledLink>
             </StyledDescriptionText>
-
             <StyledIconButton
-               href="https://github.com/nostrband/zapper"
+               href="https://github.com/block-core/zapper"
                target="_blank"
             >
                <GitHubLogoIcon />

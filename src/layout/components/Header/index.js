@@ -28,7 +28,7 @@ export const Header = () => {
                </IconButton>
 
                <StyledIconButton
-                  href="https://github.com/nostrband/zapper"
+                  href="https://github.com/block-core/zapper"
                   target="_blank"
                >
                   <GitHubLogoIcon />
