@@ -24,12 +24,15 @@ jobs:
       - name: Build the project
         run: npm run build
 
+      - name: Create 404.html
+        run: cp build/index.html build/404.html
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
-          cname: zapper.angor.io 
+          cname: zapper.angor.io
 
       - name: Clean up node_modules
         run: |
